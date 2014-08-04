@@ -1,0 +1,5 @@
+##Compressed Blocks
+tile.compactblocks:compressed_obsidian.name=Compressed Obsidian
+
+##Compressed Items
+tile.compactblocks:stick_bundle.name=Bundle of Sticks
