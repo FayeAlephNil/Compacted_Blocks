@@ -1,8 +1,8 @@
-[19:55:00] [main/INFO]: Setting user: ForgeDevName
-[19:55:02] [Client thread/INFO]: LWJGL Version: 2.9.1
-[19:55:13] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Compact Blocks
-[19:55:14] [Sound Library Loader/INFO]: Sound engine started
-[19:55:16] [Client thread/ERROR]: Using missing texture, unable to load compactblocks:textures/blocks/stick_bundle.png
+[21:06:04] [main/INFO]: Setting user: ForgeDevName
+[21:06:06] [Client thread/INFO]: LWJGL Version: 2.9.1
+[21:06:13] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Compact Blocks
+[21:06:15] [Sound Library Loader/INFO]: Sound engine started
+[21:06:15] [Client thread/ERROR]: Using missing texture, unable to load compactblocks:textures/blocks/stick_bundle.png
 java.io.FileNotFoundException: compactblocks:textures/blocks/stick_bundle.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -32,7 +32,7 @@ java.io.FileNotFoundException: compactblocks:textures/blocks/stick_bundle.png
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_65]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_65]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[19:55:16] [Client thread/ERROR]: Using missing texture, unable to load compactblocks:textures/blocks/compressed_obsidian.png
+[21:06:16] [Client thread/ERROR]: Using missing texture, unable to load compactblocks:textures/blocks/compressed_obsidian.png
 java.io.FileNotFoundException: compactblocks:textures/blocks/compressed_obsidian.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -62,11 +62,11 @@ java.io.FileNotFoundException: compactblocks:textures/blocks/compressed_obsidian
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_65]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_65]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[19:55:16] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[19:55:17] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[19:55:17] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Compact Blocks
-[19:55:17] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[19:55:17] [Client thread/ERROR]: Using missing texture, unable to load compactblocks:textures/blocks/stick_bundle.png
+[21:06:16] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[21:06:16] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[21:06:16] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Compact Blocks
+[21:06:16] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[21:06:16] [Client thread/ERROR]: Using missing texture, unable to load compactblocks:textures/blocks/stick_bundle.png
 java.io.FileNotFoundException: compactblocks:textures/blocks/stick_bundle.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -99,7 +99,7 @@ java.io.FileNotFoundException: compactblocks:textures/blocks/stick_bundle.png
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_65]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_65]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[19:55:17] [Client thread/ERROR]: Using missing texture, unable to load compactblocks:textures/blocks/compressed_obsidian.png
+[21:06:17] [Client thread/ERROR]: Using missing texture, unable to load compactblocks:textures/blocks/compressed_obsidian.png
 java.io.FileNotFoundException: compactblocks:textures/blocks/compressed_obsidian.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -132,22 +132,26 @@ java.io.FileNotFoundException: compactblocks:textures/blocks/compressed_obsidian
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_65]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_65]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[19:55:17] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[19:55:18] [Sound Library Loader/INFO]: Sound engine started
-[19:55:36] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[19:55:36] [Server thread/INFO]: Generating keypair
-[19:55:36] [Server thread/INFO]: Preparing start region for level 0
-[19:55:37] [Server thread/INFO]: Changing view distance to 12, from 10
-[19:55:37] [Server thread/INFO]: ForgeDevName[local:E:a2d56e1c] logged in with entity id 295 at (290.31057737526885, 4.0, -1556.6632939866606)
-[19:55:37] [Server thread/INFO]: ForgeDevName joined the game
-[19:55:49] [Server thread/INFO]: Saving and pausing game...
-[19:55:49] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[19:55:49] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[19:55:49] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[19:55:49] [Server thread/INFO]: Stopping server
-[19:55:49] [Server thread/INFO]: Saving players
-[19:55:49] [Server thread/INFO]: Saving worlds
-[19:55:49] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[19:55:49] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[19:55:49] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[19:55:51] [Client thread/INFO]: Stopping!
+[21:06:17] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[21:06:17] [Sound Library Loader/INFO]: Sound engine started
+[21:06:22] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[21:06:22] [Server thread/INFO]: Generating keypair
+[21:06:23] [Server thread/INFO]: Preparing start region for level 0
+[21:06:24] [Server thread/INFO]: Changing view distance to 12, from 10
+[21:06:24] [Server thread/INFO]: ForgeDevName[local:E:e211e814] logged in with entity id 296 at (290.926375135366, 4.0, -1556.7929010764774)
+[21:06:24] [Server thread/INFO]: ForgeDevName joined the game
+[21:06:28] [Server thread/INFO]: Saving and pausing game...
+[21:06:28] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[21:06:28] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[21:06:28] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[21:06:31] [Server thread/INFO]: Saving and pausing game...
+[21:06:31] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[21:06:31] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[21:06:31] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[21:06:31] [Server thread/INFO]: Stopping server
+[21:06:31] [Server thread/INFO]: Saving players
+[21:06:31] [Server thread/INFO]: Saving worlds
+[21:06:31] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[21:06:31] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[21:06:31] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[21:06:33] [Client thread/INFO]: Stopping!
