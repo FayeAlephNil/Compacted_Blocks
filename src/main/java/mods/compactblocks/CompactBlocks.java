@@ -1,19 +1,17 @@
-package com.strikingwolf.compactblocks;
+package mods.compactblocks;
 
-import com.strikingwolf.compactblocks.handler.ConfigurationHandler;
-import com.strikingwolf.compactblocks.init.ModBlocks;
-import com.strikingwolf.compactblocks.init.Recipes;
-import com.strikingwolf.compactblocks.proxy.CommonProxy;
-import com.strikingwolf.compactblocks.proxy.IProxy;
-import com.strikingwolf.compactblocks.reference.Reference;
-import com.strikingwolf.compactblocks.utility.LogHelper;
+import mods.compactblocks.handler.ConfigurationHandler;
+import mods.compactblocks.init.ModBlocks;
+import mods.compactblocks.init.Recipes;
+import mods.compactblocks.proxy.CommonProxy;
+import mods.compactblocks.reference.Reference;
+import mods.compactblocks.utility.LogHelper;
 import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
-import cpw.mods.fml.common.registry.GameRegistry;
 
 @Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION)
 public class CompactBlocks

@@ -1,10 +1,7 @@
-package com.strikingwolf.compactblocks.init;
+package mods.compactblocks.init;
 
-import com.strikingwolf.compactblocks.reference.BlocksReference;
-import com.strikingwolf.compactblocks.reference.ItemsReference;
+import mods.compactblocks.reference.BlocksReference;
 import cpw.mods.fml.common.registry.GameRegistry;
-import net.minecraft.init.Blocks;
-import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.oredict.ShapedOreRecipe;
 import net.minecraftforge.oredict.ShapelessOreRecipe;

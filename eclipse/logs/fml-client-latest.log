@@ -855,16 +855,16 @@ java.lang.NullPointerException
 [21:06:11] [Client thread/TRACE] [FML/]: Recursing into package assets.compactblocks.lang
 [21:06:11] [Client thread/TRACE] [FML/]: Recursing into package com
 [21:06:11] [Client thread/TRACE] [FML/]: Recursing into package com.strikingwolf
-[21:06:11] [Client thread/TRACE] [FML/]: Recursing into package com.strikingwolf.compactblocks
-[21:06:11] [Client thread/DEBUG] [FML/]: Identified an FMLMod type mod com.strikingwolf.compactblocks.CompactBlocks
+[21:06:11] [Client thread/TRACE] [FML/]: Recursing into package mods.compactblocks
+[21:06:11] [Client thread/DEBUG] [FML/]: Identified an FMLMod type mod mods.compactblocks.CompactBlocks
 [21:06:11] [Client thread/TRACE] [CompactBlocks/]: Parsed dependency info : [] [] []
-[21:06:11] [Client thread/TRACE] [FML/]: Recursing into package com.strikingwolf.compactblocks.block
-[21:06:11] [Client thread/TRACE] [FML/]: Recursing into package com.strikingwolf.compactblocks.creativetab
-[21:06:11] [Client thread/TRACE] [FML/]: Recursing into package com.strikingwolf.compactblocks.handler
-[21:06:11] [Client thread/TRACE] [FML/]: Recursing into package com.strikingwolf.compactblocks.init
-[21:06:11] [Client thread/TRACE] [FML/]: Recursing into package com.strikingwolf.compactblocks.proxy
-[21:06:11] [Client thread/TRACE] [FML/]: Recursing into package com.strikingwolf.compactblocks.reference
-[21:06:11] [Client thread/TRACE] [FML/]: Recursing into package com.strikingwolf.compactblocks.utility
+[21:06:11] [Client thread/TRACE] [FML/]: Recursing into package mods.compactblocks.block
+[21:06:11] [Client thread/TRACE] [FML/]: Recursing into package mods.compactblocks.creativetab
+[21:06:11] [Client thread/TRACE] [FML/]: Recursing into package mods.compactblocks.handler
+[21:06:11] [Client thread/TRACE] [FML/]: Recursing into package mods.compactblocks.init
+[21:06:11] [Client thread/TRACE] [FML/]: Recursing into package mods.compactblocks.proxy
+[21:06:11] [Client thread/TRACE] [FML/]: Recursing into package mods.compactblocks.reference
+[21:06:11] [Client thread/TRACE] [FML/]: Recursing into package mods.compactblocks.utility
 [21:06:11] [Client thread/DEBUG] [FML/]: Examining file forgeSrc-1.7.10-10.13.0.1180.jar for potential mods
 [21:06:11] [Client thread/DEBUG] [FML/]: The mod container forgeSrc-1.7.10-10.13.0.1180.jar appears to be missing an mcmod.info file
 [21:06:11] [Client thread/ERROR] [FML/]: FML has detected a mod that is using a package name based on 'net.minecraft.src' : net.minecraft.src.FMLRenderAccessLibrary. This is generally a severe programming error.  There should be no mod code in the minecraft namespace. MOVE YOUR MOD! If you're in eclipse, select your source code and 'refactor' it into a new package. Go on. DO IT NOW!
@@ -1046,11 +1046,11 @@ java.lang.NullPointerException
 [21:06:14] [Client thread/INFO] [FML/Forge]: Configured a dormant chunk cache size of 0
 [21:06:14] [Client thread/TRACE] [Forge/Forge]: Sent event FMLPreInitializationEvent to mod Forge
 [21:06:14] [Client thread/TRACE] [CompactBlocks/CompactBlocks]: Sending event FMLPreInitializationEvent to mod CompactBlocks
-[21:06:14] [Client thread/TRACE] [FML/CompactBlocks]: Registry add: CompactBlocks:compressed_obsidian 165 com.strikingwolf.compactblocks.block.BlockCompressedObsidian@7ce3742a (req. id -1)
-[21:06:14] [Client thread/DEBUG] [FML/CompactBlocks]: Found matching Block com.strikingwolf.compactblocks.block.BlockCompressedObsidian@7ce3742a for ItemBlock net.minecraft.item.ItemBlock@38dfb174 at id 165, original id requested: -1
+[21:06:14] [Client thread/TRACE] [FML/CompactBlocks]: Registry add: CompactBlocks:compressed_obsidian 165 mods.compactblocks.block.BlockCompressedObsidian@7ce3742a (req. id -1)
+[21:06:14] [Client thread/DEBUG] [FML/CompactBlocks]: Found matching Block mods.compactblocks.block.BlockCompressedObsidian@7ce3742a for ItemBlock net.minecraft.item.ItemBlock@38dfb174 at id 165, original id requested: -1
 [21:06:14] [Client thread/TRACE] [FML/CompactBlocks]: Registry add: CompactBlocks:compressed_obsidian 165 net.minecraft.item.ItemBlock@38dfb174 (req. id 165)
-[21:06:14] [Client thread/TRACE] [FML/CompactBlocks]: Registry add: CompactBlocks:stick_bundle 166 com.strikingwolf.compactblocks.block.BlockStickBundle@65fb53d7 (req. id -1)
-[21:06:14] [Client thread/DEBUG] [FML/CompactBlocks]: Found matching Block com.strikingwolf.compactblocks.block.BlockStickBundle@65fb53d7 for ItemBlock net.minecraft.item.ItemBlock@573d7c8f at id 166, original id requested: -1
+[21:06:14] [Client thread/TRACE] [FML/CompactBlocks]: Registry add: CompactBlocks:stick_bundle 166 mods.compactblocks.block.BlockStickBundle@65fb53d7 (req. id -1)
+[21:06:14] [Client thread/DEBUG] [FML/CompactBlocks]: Found matching Block mods.compactblocks.block.BlockStickBundle@65fb53d7 for ItemBlock net.minecraft.item.ItemBlock@573d7c8f at id 166, original id requested: -1
 [21:06:14] [Client thread/TRACE] [FML/CompactBlocks]: Registry add: CompactBlocks:stick_bundle 166 net.minecraft.item.ItemBlock@573d7c8f (req. id 166)
 [21:06:14] [Client thread/INFO] [Compact Blocks/CompactBlocks]: Pre Initialization Complete
 [21:06:14] [Client thread/TRACE] [CompactBlocks/CompactBlocks]: Sent event FMLPreInitializationEvent to mod CompactBlocks
@@ -1289,8 +1289,8 @@ java.lang.NullPointerException
 [21:06:23] [Server thread/TRACE] [FML/]: Registry: minecraft:log2 162 net.minecraft.block.BlockNewLog@185d3f47
 [21:06:23] [Server thread/TRACE] [FML/]: Registry: minecraft:acacia_stairs 163 net.minecraft.block.BlockStairs@11e55ad0
 [21:06:23] [Server thread/TRACE] [FML/]: Registry: minecraft:dark_oak_stairs 164 net.minecraft.block.BlockStairs@68ad16dd
-[21:06:23] [Server thread/TRACE] [FML/]: Registry: CompactBlocks:compressed_obsidian 165 com.strikingwolf.compactblocks.block.BlockCompressedObsidian@7ce3742a
-[21:06:23] [Server thread/TRACE] [FML/]: Registry: CompactBlocks:stick_bundle 166 com.strikingwolf.compactblocks.block.BlockStickBundle@65fb53d7
+[21:06:23] [Server thread/TRACE] [FML/]: Registry: CompactBlocks:compressed_obsidian 165 mods.compactblocks.block.BlockCompressedObsidian@7ce3742a
+[21:06:23] [Server thread/TRACE] [FML/]: Registry: CompactBlocks:stick_bundle 166 mods.compactblocks.block.BlockStickBundle@65fb53d7
 [21:06:23] [Server thread/TRACE] [FML/]: Registry: minecraft:hay_block 170 net.minecraft.block.BlockHay@79f7891d
 [21:06:23] [Server thread/TRACE] [FML/]: Registry: minecraft:carpet 171 net.minecraft.block.BlockCarpet@3f465143
 [21:06:23] [Server thread/TRACE] [FML/]: Registry: minecraft:hardened_clay 172 net.minecraft.block.BlockHardenedClay@fb0c5b3
@@ -1714,7 +1714,7 @@ java.lang.NullPointerException
 [21:06:23] [Server thread/TRACE] [FML/]: Registry add: minecraft:brown_mushroom 39 net.minecraft.block.BlockMushroom@3d06dd70 (req. id 39)
 [21:06:23] [Server thread/TRACE] [FML/]: Registry add: minecraft:gold_block 41 net.minecraft.block.BlockCompressed@2548d5b2 (req. id 41)
 [21:06:23] [Server thread/TRACE] [FML/]: Registry add: minecraft:ladder 65 net.minecraft.block.BlockLadder@71b92c9b (req. id 65)
-[21:06:23] [Server thread/TRACE] [FML/]: Registry add: CompactBlocks:stick_bundle 166 com.strikingwolf.compactblocks.block.BlockStickBundle@65fb53d7 (req. id 166)
+[21:06:23] [Server thread/TRACE] [FML/]: Registry add: CompactBlocks:stick_bundle 166 mods.compactblocks.block.BlockStickBundle@65fb53d7 (req. id 166)
 [21:06:23] [Server thread/TRACE] [FML/]: Registry add: minecraft:stone_slab 44 net.minecraft.block.BlockStoneSlab@2a57e9b6 (req. id 44)
 [21:06:23] [Server thread/TRACE] [FML/]: Registry add: minecraft:bookshelf 47 net.minecraft.block.BlockBookshelf@6d9a2068 (req. id 47)
 [21:06:23] [Server thread/TRACE] [FML/]: Registry add: minecraft:cake 92 net.minecraft.block.BlockCake@49ef4b31 (req. id 92)
@@ -1768,7 +1768,7 @@ java.lang.NullPointerException
 [21:06:23] [Server thread/TRACE] [FML/]: Registry add: minecraft:stained_glass_pane 160 net.minecraft.block.BlockStainedGlassPane@16236fc7 (req. id 160)
 [21:06:23] [Server thread/TRACE] [FML/]: Registry add: minecraft:air 0 net.minecraft.block.BlockAir@7c3c550b (req. id 0)
 [21:06:23] [Server thread/TRACE] [FML/]: Registry add: minecraft:chest 54 net.minecraft.block.BlockChest@1982172b (req. id 54)
-[21:06:23] [Server thread/TRACE] [FML/]: Registry add: CompactBlocks:compressed_obsidian 165 com.strikingwolf.compactblocks.block.BlockCompressedObsidian@7ce3742a (req. id 165)
+[21:06:23] [Server thread/TRACE] [FML/]: Registry add: CompactBlocks:compressed_obsidian 165 mods.compactblocks.block.BlockCompressedObsidian@7ce3742a (req. id 165)
 [21:06:23] [Server thread/TRACE] [FML/]: Registry add: minecraft:activator_rail 157 net.minecraft.block.BlockRailPowered@81331d5 (req. id 157)
 [21:06:23] [Server thread/TRACE] [FML/]: Registry add: minecraft:flowing_lava 10 net.minecraft.block.BlockDynamicLiquid@5154e9b (req. id 10)
 [21:06:23] [Server thread/TRACE] [FML/]: Registry add: minecraft:torch 50 net.minecraft.block.BlockTorch@365174ad (req. id 50)
@@ -2027,7 +2027,7 @@ java.lang.NullPointerException
 [21:06:23] [Server thread/TRACE] [FML/]: Registry add: minecraft:iron_pickaxe 257 net.minecraft.item.ItemPickaxe@528d54de (req. id 257)
 [21:06:23] [Server thread/TRACE] [FML/]: Registry add: minecraft:hopper_minecart 408 net.minecraft.item.ItemMinecart@438060f4 (req. id 408)
 [21:06:23] [Server thread/TRACE] [FML/]: Registry add: minecraft:iron_leggings 308 net.minecraft.item.ItemArmor@13cb35da (req. id 308)
-[21:06:23] [Server thread/DEBUG] [FML/]: Found matching Block com.strikingwolf.compactblocks.block.BlockCompressedObsidian@7ce3742a for ItemBlock net.minecraft.item.ItemBlock@38dfb174 at id 165, original id requested: 165
+[21:06:23] [Server thread/DEBUG] [FML/]: Found matching Block mods.compactblocks.block.BlockCompressedObsidian@7ce3742a for ItemBlock net.minecraft.item.ItemBlock@38dfb174 at id 165, original id requested: 165
 [21:06:23] [Server thread/TRACE] [FML/]: Registry add: CompactBlocks:compressed_obsidian 165 net.minecraft.item.ItemBlock@38dfb174 (req. id 165)
 [21:06:23] [Server thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockRailDetector@61e118f9 for ItemBlock net.minecraft.item.ItemBlock@863c657 at id 28, original id requested: 28
 [21:06:23] [Server thread/TRACE] [FML/]: Registry add: minecraft:detector_rail 28 net.minecraft.item.ItemBlock@863c657 (req. id 28)
@@ -2131,7 +2131,7 @@ java.lang.NullPointerException
 [21:06:23] [Server thread/TRACE] [FML/]: Registry add: minecraft:glowstone 89 net.minecraft.item.ItemBlock@25b0ead3 (req. id 89)
 [21:06:23] [Server thread/TRACE] [FML/]: Registry add: minecraft:cauldron 380 net.minecraft.item.ItemReed@293ed714 (req. id 380)
 [21:06:23] [Server thread/TRACE] [FML/]: Registry add: minecraft:repeater 356 net.minecraft.item.ItemReed@54b5360e (req. id 356)
-[21:06:23] [Server thread/DEBUG] [FML/]: Found matching Block com.strikingwolf.compactblocks.block.BlockStickBundle@65fb53d7 for ItemBlock net.minecraft.item.ItemBlock@573d7c8f at id 166, original id requested: 166
+[21:06:23] [Server thread/DEBUG] [FML/]: Found matching Block mods.compactblocks.block.BlockStickBundle@65fb53d7 for ItemBlock net.minecraft.item.ItemBlock@573d7c8f at id 166, original id requested: 166
 [21:06:23] [Server thread/TRACE] [FML/]: Registry add: CompactBlocks:stick_bundle 166 net.minecraft.item.ItemBlock@573d7c8f (req. id 166)
 [21:06:23] [Server thread/TRACE] [FML/]: Registry add: minecraft:diamond_axe 279 net.minecraft.item.ItemAxe@792c68e3 (req. id 279)
 [21:06:23] [Server thread/TRACE] [FML/]: Registry add: minecraft:record_13 2256 net.minecraft.item.ItemRecord@1cb53ac1 (req. id 2256)
@@ -2416,8 +2416,8 @@ java.lang.NullPointerException
 [21:06:23] [Server thread/TRACE] [FML/]: Registry: minecraft:log2 162 net.minecraft.block.BlockNewLog@185d3f47
 [21:06:23] [Server thread/TRACE] [FML/]: Registry: minecraft:acacia_stairs 163 net.minecraft.block.BlockStairs@11e55ad0
 [21:06:23] [Server thread/TRACE] [FML/]: Registry: minecraft:dark_oak_stairs 164 net.minecraft.block.BlockStairs@68ad16dd
-[21:06:23] [Server thread/TRACE] [FML/]: Registry: CompactBlocks:compressed_obsidian 165 com.strikingwolf.compactblocks.block.BlockCompressedObsidian@7ce3742a
-[21:06:23] [Server thread/TRACE] [FML/]: Registry: CompactBlocks:stick_bundle 166 com.strikingwolf.compactblocks.block.BlockStickBundle@65fb53d7
+[21:06:23] [Server thread/TRACE] [FML/]: Registry: CompactBlocks:compressed_obsidian 165 mods.compactblocks.block.BlockCompressedObsidian@7ce3742a
+[21:06:23] [Server thread/TRACE] [FML/]: Registry: CompactBlocks:stick_bundle 166 mods.compactblocks.block.BlockStickBundle@65fb53d7
 [21:06:23] [Server thread/TRACE] [FML/]: Registry: minecraft:hay_block 170 net.minecraft.block.BlockHay@79f7891d
 [21:06:23] [Server thread/TRACE] [FML/]: Registry: minecraft:carpet 171 net.minecraft.block.BlockCarpet@3f465143
 [21:06:23] [Server thread/TRACE] [FML/]: Registry: minecraft:hardened_clay 172 net.minecraft.block.BlockHardenedClay@fb0c5b3

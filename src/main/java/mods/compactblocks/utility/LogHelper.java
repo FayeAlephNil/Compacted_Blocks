@@ -1,6 +1,6 @@
-package com.strikingwolf.compactblocks.utility;
+package mods.compactblocks.utility;
 
-import com.strikingwolf.compactblocks.reference.Reference;
+import mods.compactblocks.reference.Reference;
 import cpw.mods.fml.common.FMLLog;
 import org.apache.logging.log4j.Level;
 public class LogHelper {

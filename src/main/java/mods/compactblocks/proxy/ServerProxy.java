@@ -1,4 +1,4 @@
-package com.strikingwolf.compactblocks.proxy;
+package mods.compactblocks.proxy;
 
 
 public class ServerProxy extends CommonProxy {

@@ -1,4 +1,4 @@
-package com.strikingwolf.compactblocks.proxy;
+package mods.compactblocks.proxy;
 
 public abstract class CommonProxy implements IProxy {
 

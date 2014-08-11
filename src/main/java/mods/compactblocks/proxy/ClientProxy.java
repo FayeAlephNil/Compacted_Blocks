@@ -1,7 +1,5 @@
-package com.strikingwolf.compactblocks.proxy;
+package mods.compactblocks.proxy;
 
-
-import cpw.mods.fml.client.registry.RenderingRegistry;
 
 public class ClientProxy extends CommonProxy {
 

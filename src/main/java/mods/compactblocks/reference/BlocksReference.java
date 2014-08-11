@@ -1,7 +1,6 @@
-package com.strikingwolf.compactblocks.reference;
+package mods.compactblocks.reference;
 
-import com.strikingwolf.compactblocks.init.ModBlocks;
-import cpw.mods.fml.common.Mod;
+import mods.compactblocks.init.ModBlocks;
 import net.minecraft.block.Block;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;

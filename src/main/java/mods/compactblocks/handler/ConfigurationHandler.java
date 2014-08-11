@@ -1,9 +1,8 @@
-package com.strikingwolf.compactblocks.handler;
+package mods.compactblocks.handler;
 
 import java.io.File;
 
-import com.strikingwolf.compactblocks.reference.Reference;
-import com.strikingwolf.compactblocks.reference.Reference;
+import mods.compactblocks.reference.Reference;
 import cpw.mods.fml.client.event.ConfigChangedEvent;
 import cpw.mods.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.common.config.Configuration;

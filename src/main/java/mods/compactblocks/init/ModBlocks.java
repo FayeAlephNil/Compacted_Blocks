@@ -1,11 +1,7 @@
-package com.strikingwolf.compactblocks.init;
-import com.strikingwolf.compactblocks.block.*;
-import com.strikingwolf.compactblocks.reference.BlocksReference;
-import com.strikingwolf.compactblocks.reference.Reference;
+package mods.compactblocks.init;
+import mods.compactblocks.block.*;
+import mods.compactblocks.reference.Reference;
 import cpw.mods.fml.common.registry.GameRegistry;
-import cpw.mods.fml.common.registry.LanguageRegistry;
-import net.minecraft.block.BlockContainer;
-import net.minecraft.item.ItemStack;
 
 @GameRegistry.ObjectHolder(Reference.MOD_ID)
 public class ModBlocks

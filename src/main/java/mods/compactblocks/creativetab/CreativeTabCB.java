@@ -1,9 +1,7 @@
-package com.strikingwolf.compactblocks.creativetab;
+package mods.compactblocks.creativetab;
 
-import com.strikingwolf.compactblocks.init.ModBlocks;
-import com.strikingwolf.compactblocks.reference.Reference;
+import mods.compactblocks.reference.Reference;
 import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 

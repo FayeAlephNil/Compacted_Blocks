@@ -1,7 +1,4 @@
-package com.strikingwolf.compactblocks.utility;
-
-import net.minecraft.item.ItemStack;
-import net.minecraft.nbt.NBTTagCompound;
+package mods.compactblocks.utility;
 
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;

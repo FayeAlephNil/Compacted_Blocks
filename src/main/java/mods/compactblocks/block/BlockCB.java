@@ -1,13 +1,12 @@
-package com.strikingwolf.compactblocks.block;
+package mods.compactblocks.block;
 
-import com.strikingwolf.compactblocks.creativetab.CreativeTabCB;
-import com.strikingwolf.compactblocks.reference.Reference;
+import mods.compactblocks.creativetab.CreativeTabCB;
+import mods.compactblocks.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.Block;
 import net.minecraft.client.renderer.texture.IIconRegister;
-import net.minecraft.item.ItemStack;
 
 public class BlockCB extends Block
 {

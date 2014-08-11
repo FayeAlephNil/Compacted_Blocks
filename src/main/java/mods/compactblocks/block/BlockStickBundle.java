@@ -1,4 +1,4 @@
-package com.strikingwolf.compactblocks.block;
+package mods.compactblocks.block;
 
 import net.minecraft.block.material.Material;
 
