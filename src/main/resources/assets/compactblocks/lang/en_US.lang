@@ -1,8 +1,10 @@
 ##Compressed Blocks
 tile.compactblocks:compressed_obsidian.name=Compressed Obsidian
+tile.compactblocks:log_pile.name=Log Pile
 
 ##Compressed Items
 tile.compactblocks:stick_bundle.name=Bundle of Sticks
+tile.compactblocks:blaze_rod_bundle.name=Blaze Rod Bundle
 
 ##CreativeTabs
 itemGroup.compactblocks=Compact Blocks
